@@ -2,12 +2,12 @@
 
 
 
-##Module 14 Challenge 
+## Module 14 Challenge 
 
-##Instructions
+## Instructions
 Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json.
 
-Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+Create a horizontal bar chart with a drop-down menu to display the top 10 OTUs found in that individual.
 
 Use sample_values as the values for the bar chart.
 
@@ -33,10 +33,10 @@ Loop through each key-value pair from the metadata JSON object and create a text
 Append an html tag with that text to the #sample-metadata panel.
 Update all the plots when a new sample is selected. Additionally
 
-##Requirements
+## Requirements
 
 
-#Bar Chart 
+# Bar Chart 
 Chart initializes without error 
 
 Chart updates when a new sample is selected 
@@ -47,7 +47,7 @@ Chart uses otu_ids as the labels
 
 Chart uses otu_labels as the tooltip 
 
-#Bubble Charts 
+# Bubble Charts 
 Chart initializes without error 
 
 Chart updates when a new sample is selected 
@@ -62,7 +62,7 @@ Chart uses sample_values for the marker size
 
 Chart uses otu_labels for text values 
 
-#Metadata and Deployment 
+# Metadata and Deployment 
 Metadata initializes without error 
 
 Metadata updates when a new sample is selected 
